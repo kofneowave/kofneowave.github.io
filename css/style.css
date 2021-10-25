@@ -1,0 +1,20 @@
+#master{
+    align-items: center;
+}
+.celulares{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color: rgb(0, 0, 0);
+
+    position: relative;
+    overflow: hidden;
+}
+.celulares1{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    
+    position: relative;
+    overflow: hidden;
+}

@@ -1,0 +1,263 @@
+
+#teste{width: 20%;
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;}
+#master{
+        justify-content:center;
+        min-height: 100vh;
+        margin: 0;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+.celulares{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        justify-content:center;
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient(black, #191967);
+        display: block;
+    }
+    .celulares1{
+        position: relative;
+        display: flex;
+        align-items: center;    
+        justify-content:center;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
+            background-image: linear-gradient(black, #191967);
+    }
+    body {
+        margin: 0;
+    }
+    
+    
+    
+    .exemplo{
+        justify-content:center;
+    width: 100%;
+    
+    top:11vh;
+    
+        
+    position: absolute; 
+    
+    }
+    .exemplom{
+        justify-content:center;
+        width: 100%;
+        top: 60vh;
+            
+        position: absolute;   
+    }
+    .logo{
+    justify-content:center;
+    width: 100%;
+    top: 0vh;
+        
+    position: absolute; 
+    }
+    
+    .exm{
+        top: 1vh;
+        float: left;
+        position: absolute;
+        width: 20vh;
+        left: unset;
+    }
+    .exm1{
+        float: right;
+        
+        width: 22vh;
+    }
+    .celular{
+        justify-content:center;
+        width: 100%;
+        top: 48vh;
+            
+        position: absolute; 
+        }
+.celularm{
+    justify-content:center;
+    width: 100%;
+    top: 48vh;    
+    position: absolute; 
+}
+    .exemplome{
+        display: block;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20vh;
+        width: 40vh;
+        }
+    body h1{   text-align: center;
+        color: white;
+        font-family: auto;
+        text-shadow: #ffffff 0 0 4vh;
+        
+    }
+    .b{   
+        padding: 0;
+    color: white;
+    font-family: auto;
+    position: absolute;
+    }
+    .ex{
+        width: 20vh;
+        display: block;
+    
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;}
+    .exe{
+        
+        width: 20vh;
+        float: right;
+    }
+    
+    .exemplomc{
+        justify-content:center;
+        width: 100%;
+        top: 12vh;
+            
+        position: absolute;   
+    }
+    .exemplomec{
+        display: block;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20vh;
+        width: 54vh;
+        }
+
+.preco{
+    justify-content: center;
+    width: 30vh;
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #210f35;
+    border: 0.5vh solid;
+    height: 11vh;
+    border-radius: 3vh;
+    border-color: #01ea77;
+ }
+
+ .zap1{
+    justify-content: center;
+    width: 40vh;
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #210f35;
+    border: 0.5vh solid;
+    height: 8.5vh;
+    border-radius: 3vh;
+    border-color: #01ea77;
+ }
+ .imgz{ 
+    width: 9vh;
+    }
+ .zap{
+    justify-content:center;
+    width: 100%;
+    top: 70vh;
+        
+    position: absolute; 
+    }
+body h3{ 
+    margin-left: 4vh; 
+    float: left;
+        color: white;
+        font-family: auto;
+        width: 25vh;
+}
+.exemplodesse{
+    justify-content:center;
+    width: 100%;
+    top: 90vh;
+        
+    position: absolute;   
+}
+.exemplodesses{
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+    width: 37vh;
+    }
+.sube{
+    width: 9vh;
+    float: left;
+}
+.desce{
+    width: 9vh;
+    float: right;
+}
+
+
+@media screen and (orientation: portrait) {
+.exemplomec{
+     width: 33vh;
+}
+.exe {
+    top: 8vh;
+    width: 19vh;
+    float: right;
+    position: absolute;
+    left: 25vh;
+}
+.b {
+    font-size: 5ch;
+}
+.preco{
+    height: 8.5vh;
+}
+.celular{
+    top: 60vh;
+}
+.celularm{
+    top: 50vh;
+}
+.zap1 {
+
+    width: 40vh;
+    display: block;
+
+}
+.zap {
+    top: 75vh;
+}
+body h3 {
+    font-size: 7ch;
+
+}
+body h1 {
+    text-shadow: #ffffff 0 0 68px;
+    font-size: 10ch;
+
+}
+.valor{
+    font-size: 9ch;
+}
+#teste {
+    width: 50%;
+}
+
+}

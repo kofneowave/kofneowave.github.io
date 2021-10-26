@@ -108,6 +108,10 @@
         text-shadow: #ffffff 0 0 4vh;
         
     }
+    body a{
+    text-decoration: none;
+    color: white;
+}
     .b{   
         padding: 0;
     color: white;
